@@ -1,4 +1,17 @@
 print("Bienvenido al generador ")
+print("""
+            ___           ___           ___           ___           ___            
+     /  /\         /  /\         /  /\         /__/\         /  /\           
+    /  /:/_       /  /:/_       /  /:/         \  \:\       /  /::\          
+   /  /:/ /\     /  /:/ /\     /  /:/           \  \:\     /  /:/\:\         
+  /  /:/_/::\   /  /:/_/::\   /  /:/  ___   ___  \  \:\   /  /:/~/:/         
+ /__/:/__\/\:\ /__/:/__\/\:\ /__/:/  /  /\ /__/\  \__\:\ /__/:/ /:/          
+ \  \:\ /~~/:/ \  \:\ /~~/:/ \  \:\ /  /:/ \  \:\ /  /:/ \  \:\/:/           
+  \  \:\  /:/   \  \:\  /:/   \  \:\  /:/   \  \:\  /:/   \  \::/            
+   \  \:\/:/     \  \:\/:/     \  \:\/:/     \  \:\/:/     \  \:\            
+    \  \::/       \  \::/       \  \::/       \  \::/       \  \:\           
+     \__\/         \__\/         \__\/         \__\/         \__\/           
+      """)
 
 diccionario_final = set()
 
@@ -9,10 +22,11 @@ empresa = input("Ingrese nombre de empresa (O presione enter para omitir): ")
 nombre_mascota = input("Ingrese nombre de la mascota (O presione enter para omitir): ")
 equipo = input("Ingrese equipo favorito (O presione enter para omitir): ")
 color = input("Ingrese color favorito (O presione enter para omitir): ")
+alias = input("Ingrese el alias de la persona (O presione enter para omitir)")
 name_archive = input("Que nombre quiere ponerle al archivo: ") 
 name_archive += ".txt"
 
-inputs = [nombre, apellido, anio, empresa, nombre_mascota, equipo, color]
+inputs = [nombre, apellido, anio, empresa, nombre_mascota, equipo, color, alias]
 
 palabras = []
 for palabra in inputs:
